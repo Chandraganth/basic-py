@@ -1,0 +1,61 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+
+*       - expression
+'hello'- value(string)
+-87.8  - value(float)
+-      - expression 
+/      - expression
++      - expression
+6      - value(int)
+  
+  
+  
+  2. What is the difference between string and variable?  
+  
+  VARIABLES are the names bounded to objects . it is like a symbol to store data and information
+  STRINGS   are the data or information stored in a variable which is comprised  within single , double and triple quotes
+
+3. Describe three different data types.
+
+a) NUMERIC DATATYPE - It represents the data which has numeric values like int,float,complex numbers 
+example - int - 55
+          float - 55.5
+ 
+ b)BOOL - they are the built in values either True or False
+ 
+ c) SEQUENCE - It allows to store multiple datas. it maybe same or different datatypes 
+   Example- tuples()
+          - list[]
+       
+          
+4. What is an expression made up of? What do all expressions do? 
+ Expression is a combination of  operators and operands . the expressions evaluates and computes a value 
+ eg- 5+a-6 (here the symbols are operators )
+ 
+ 
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+Statement is like a intruction  that python can execute .eg print('hi') here print is the statement which helps  to produce the result 'hi'
+expressions are evaluated for results
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1          Answer - 23
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3                   'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?   
+      Because a  variable cannot start with a number or symbol except underscore 
+      
+      
+9. What three functions can be used to get the integer, floating-point number, or string version of a value? 
+int() for integer
+str() for string
+float() for floating point numbers
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+           Ans-  expression - 'I have eaten ' + '99' + ' burritos.'
+                 result - 'i have eaten 99 burritos.' 
