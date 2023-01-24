@@ -1,0 +1,74 @@
+1. What exactly is []?
+
+ it is a  list , allows to declare datas inside it 
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+                               
+                               spam[2] = 'hello'
+
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+
+                       output = 'd'
+
+4. What is the value of spam[-1]?
+                    
+                    output = 'd'
+                    
+5. What is the value of spam[:2]?
+                  
+            output =  ['a','b']
+                  
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+
+6. What is the value of bacon.index('cat')?
+                index = 1
+                
+7. How does bacon.append(99) change the look of the list value in bacon?
+                        
+                     bacon =  [3.14, 'cat', 11, 'cat', True, 99]
+                     
+8. How does bacon.remove('cat') change the look of the list in bacon?
+                             
+                           bacon =  [3.14, 11, 'cat', True, 99]
+                           
+9. What are the list concatenation and list replication operators?
+                  
+                  list concatenation operator is +
+                  list replication operation is  *
+                        
+                        
+10. What is difference between the list methods append() and insert()?
+                
+                 append() adds the data at the  end  of the list
+                 insert() adds the data at a specified  index position
+                 
+11. What are the two methods for removing items from a list?
+                      1) remove()
+                      2) pop(index value)
+                      
+12. Describe how list values and string values are identical.
+                   
+                   list and  string values are identical in the way that they are in a ordered manner but string values are immutable whereas  lists are mutable 
+
+                        
+13. What's the difference between tuples and lists?
+
+           lists are ordered data and mutable . they are given in array brackets[]
+           tuples are ordered data and are  immutable . they are given in rounded brackets()
+           
+14. How do you type a tuple value that only contains the integer 42?
+                                  
+                                  a = (42,) comma after integer
+                                  
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+                    
+                    by calling the inbuilt function list() and tuple()
+                    
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+                they contain the references to the list values 
+                
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+                   copy.copy() gives the shallow copy of the data, both original and copied points to the same memory location
+                   whereas copy.deepcopy() gives the deep copy of the data where original  and copied values does not point to same memory location 
