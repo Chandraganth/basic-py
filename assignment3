@@ -1,15 +1,65 @@
 1. Why are functions advantageous to have in your programs?
+
+  functions are an advantage because it helps us avoid coding again and again and it saves time . it also makes the code more undertandable
+
+
 2. When does the code in a function run: when it's specified or when it's called?
+
+ code runs when a function is called and gets executed from firstnline of the code 
+ 
+ 
 3. What statement creates a function?
+ 
+ THE keyword def creates a function
+ eg) def test():
+
 4. What is the difference between a function and a function call?
+
+ A function is a code  which has a specific operation to perform and
+ Function call is when you call a function so it runs the code and gives the output 
+
+
 5. How many global scopes are there in a Python program? How many local scopes?
+ 
+ only one global scope per program and remains until we terminate it and the scope created inside the funtion is called local scope 
+
 6. What happens to variables in a local scope when the function call returns?
+ 
+ calling a function  creates a new local variable eachtime and therefore it expires after a function call returns 
+
 7. What is the concept of a return value? Is it possible to have a return value in an expression?
+
+A return statement is used to return values from a function, it can be usd outside a funtion
+ Yes we can use return value in an expression
+
+
 8. If a function does not have a return statement, what is the return value of a call to that function?
+
+A function without a return statement will return NONE
+
 9. How do you make a function variable refer to the global variable?
+
+BY using the global keyword 
+
 10. What is the data type of None?
+ 
+ Datatype of None is Nonetype
+ 
 11. What does the sentence import areallyourpetsnamederic do?
+
+It imports the  module areallyourpetsnamederic  only if there  is a module named  areallyourpetsnamederic
+
 12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+spam.bacon()
+
 13. What can you do to save a programme from crashing if it encounters an error?
+
+by debugging the error
+by using try and except clause to run and handle the errors 
+
 14. What is the purpose of the try clause? What is the purpose of the except clause?
+ 
+ The try clause helps  in running the code for errors
+ The except clause helps in handling the error
 
