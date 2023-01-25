@@ -1,0 +1,51 @@
+1. What are escape characters, and how do you use them?
+                
+                It is the  backslash symbol(\) followed by the characters , considered as string literals eg) '\n'
+                
+2. What do the escape characters n and t stand for?
+              "\n" - newline
+              "\t" - tab
+             
+3. What is the way to include backslash characters in a string?
+
+       It defines  a escape character   when enclosed within double quotes eg) "\n" 
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+                       
+                       because it is enclosed within double quotes 
+
+5. How do you write a string of newlines if you don't want to use the n character?
+
+                  by using multiline strings
+                  
+6. What are the values of the given expressions?
+
+'Hello, world!'[1]    - 'e'
+'Hello, world!'[0:5]  - 'Hello'
+'Hello, world!'[:5]   - 'Hello'
+'Hello, world!'[3:]   - 'lo, world!'
+
+7. What are the values of the following expressions?
+
+'Hello'.upper()                 - 'HELLO' 
+'Hello'.upper().isupper()       - True
+'Hello'.upper().lower()         - 'hello'
+
+8. What are the values of the following expressions?
+
+'Remember, remember, the fifth of July.'.split() - ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+
+'-'.join('There can only one.'.split()) -  'There-can-only-one.'
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+             
+             1. rjust()
+             2. ljust()
+             3. center()
+
+10. What is the best way to remove whitespace characters from the start or end?
+                   
+                   lstrip()
+                   rstrip()
+
+
