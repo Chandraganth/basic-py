@@ -1,21 +1,21 @@
 1. What is the name of the feature responsible for generating Regex objects?
 
- The re.compile() function returns Regex object
+                      The re.compile() function returns Regex object
 
 
 2. Why do raw strings often appear in Regex objects?
 
- Raw strings are used so that backslashes do not have to be escaped
+                Raw strings are used so that backslashes do not have to be escaped
 
 
 3. What is the return value of the search() method?
 
- The search() method returns Match objects
+                   Match objects
 
 
 4. From a Match item, how do you get the actual strings that match the pattern?
 
- The group() method returns strings of the matched text.
+       The group() method returns strings of the matched text.
 
 
 5. In the regex which created from the r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group zero cover? Group 2? Group 1?
