@@ -51,7 +51,7 @@ def genPrimes():
     prime = []
     while True:
         for i in prime:
-            if n % p == 0:
+            if n % i == 0:
                 break
         else:
             prime.append(n)
